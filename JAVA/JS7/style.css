@@ -1,0 +1,42 @@
+           
+*{
+margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+background-color: #10006d;
+color: #000000;
+font-family: sans-serif;
+}
+form{
+background-color: white;
+max-width: 500px;
+width: 70%;
+padding: 20px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border-radius: 15px;
+}
+form p{
+text-align: left;
+color: #5F7C8A;
+font-family: 'Courier New', Courier, monospace;
+font-size: small;
+}
+form input[type=text],
+form input[type=password]{
+width: 100%;
+height: 45px;
+border: 1px solid#ccc;
+padding-left: 10px;
+margin: 10px 0;
+
+}
+
+input{
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 9px;
+    border-width: 0px;
+}
